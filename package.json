@@ -1,0 +1,38 @@
+{
+  "name": "benchmark-job-generator",
+  "version": "1.0.0",
+  "description": "A generator for benchmark case",
+  "main": "index.js",
+  "bin": {
+    "job": "./bin/index.js"
+  },
+  "scripts": {
+    "info": "node index",
+    "start": "node bin/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scott-x/benchmark-job-generator.git"
+  },
+  "keywords": [
+    "benchmark",
+    "flow",
+    "scott-x",
+    "scott xiong",
+    "judy201654321"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/scott-x/benchmark-job-generator/issues"
+  },
+  "homepage": "https://github.com/scott-x/benchmark-job-generator#readme",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "commander": "^2.19.0",
+    "fs-extra": "^7.0.1",
+    "inquirer": "^6.2.1",
+    "node-xlsx": "^0.12.1",
+    "xlsx": "^0.14.1"
+  }
+}
